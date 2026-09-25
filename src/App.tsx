@@ -30,8 +30,6 @@ function App() {
     );
   }
 
-  // Входящее сообщение может прийти от того, с кем чат ещё не создавали вручную —
-  // тогда создаём чат "на лету".
   const handleIncomingMessage = useCallback(
     (chatId: string, chatName: string, message: ChatMessage) => {
       setChats((prev) => {

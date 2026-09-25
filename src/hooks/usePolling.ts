@@ -15,7 +15,7 @@ interface UsePollingParams {
 
 /**
  * Фоновый опрос входящих сообщений
- * дергает receiveNotification, опрос сообщения, deleteNotification и повторить
+ * дергает receiveNotification => опрос сообщения => deleteNotification и повторить
  * idInstance {string}
  * apiTokenInstance {string}
  * isEnabled {boolean}
