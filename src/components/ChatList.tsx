@@ -1,4 +1,4 @@
-import { useState, FormEvent } from "react";
+import { useState, type FormEvent } from "react";
 import type { Chat } from "../types/chat";
 import { phoneToChatId } from "../utils/phone";
 
