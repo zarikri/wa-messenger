@@ -1,5 +1,5 @@
 import { useState, FormEvent } from "react";
-import type { Chat } from "../App";
+import type { Chat } from "../types/chat";
 import { phoneToChatId } from "../utils/phone";
 
 interface ChatListProps {
